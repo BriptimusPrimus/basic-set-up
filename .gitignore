@@ -35,3 +35,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Webpack bundle
+dist/bundle.js
+dist/bundle.js.map
+
+# Visual Studio Code files
+.vscode
+
+.DS_Store
+.idea
