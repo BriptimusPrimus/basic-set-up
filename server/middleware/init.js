@@ -18,7 +18,7 @@ module.exports = function init(app) {
   app.use(cookieParser());
 
   // Load all routes
-  app.use('/ul-dashboard-data', routes);
+  app.use('/api', routes);
 
   // Load page
   app.get('/', function(req, res) {
